@@ -1,0 +1,41 @@
+attribute,description
+class,taxonomic class of observed organism
+order,taxonomic order of observed organism
+family,taxonomic family of observed organism
+genus,genus name
+species,full latin binomial name
+lat,latitude of occurrence record in decimal degrees
+long,longitude of occurrence record in decimal degrees
+eventDate,date and time of observation in YYYY-MM-DD HH:MM:SS format
+day,day of the month of observation
+month,month of observation
+year,observation year
+institutionCode,institution code provided by GBIF (www.gbif.org)
+coordinateUncertaintyInMeters,coordinate uncertainty in meters; NA indicate no information on coordinate uncertainty
+basisOfRecord,"type of record provided by GBIF; one of ""HUMAN_OBSERVATION"", ""PRESERVED_SPECIMEN"", ""MATERIAL_SAMPLE"", ""MACHINE OBSERVATION"""
+individualCount,number of individuals (if provided) observed for the sampling event 
+datasetKey,unique dataset key provided by GBIF
+bio1,"annual mean temperature (degrees Celsius, x10)"
+bio10,"mean temperature of warmest quarter (degrees Celsius, x10)"
+bio11,"mean temperature of coldest quarter (degrees Celsius, x10)"
+bio12,annual precipitation (millimeters (mm))
+bio13,precipitation of wettest month (mm)
+bio14,precipitation of driest month (mm)
+bio15,precipitation seasonality (percent)
+bio16,precipitation of wettest quarter (mm)
+bio17,precipitation of driest quarter (mm)
+bio18,precipitation of warmest quarter (mm)
+bio19,precipitation of coldest quarter (mm)
+bio2,"annual mean diurnal range (degrees Celsius, x10)"
+bio3,isothermality (percent)
+bio4,"temperature seasonality (degrees Celsius, x100)"
+bio5,"max temperature of warmest month (degrees Celsius, x10)"
+bio6,"min temperature of coldest month (degrees Celsius, x10)"
+bio7,"annual temperature range (degrees Celsius, x10)"
+bio8,"mean temperature of wettest month (degrees Celsius, x10)"
+bio9,"mean temperature of driest quarter (degrees Celsius, x10)"
+dist,distance to the nearest major road (kilometers); road shapefile from the census bureau TIGER/Line shapefiles - prisecroad: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html
+dem90_hf,"elevation (meters); data from the National Elevation Dataset - Steven E. Hanser, 2008, Elevation in the Western United States (90 meter DEM): Wiley."
+lc_class,"landcover classification from the University of Maryland (values 0-16); ""NA"" indicates no data; see MODIS product info for more details: https://doi.org/10.5067/MODIS/MCD12Q1.061"
+ndvi,the mean normalized difference vegetation index (NDVI) aggregated over an entire year; see MODIS product info for more details: https://doi.org/10.5067/MODIS/MOD13A1.061
+notes,"all bioX variables are from the WorldClim database downloaded with the raster package in R using the ""getData"" function at 2.5 minute resolution; Fick, S.E. and R.J. Hijmans, 2017. WorldClim 2: new 1km spatial resolution climate surfaces for global land areas. International Journal of Climatology 37 (12): 4302-4315."
